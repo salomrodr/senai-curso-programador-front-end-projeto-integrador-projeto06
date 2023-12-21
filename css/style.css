@@ -1,0 +1,301 @@
+/* ************ */
+/* Início: body */
+/* ************ */
+
+body {
+    margin: 0;
+    padding: 0;
+
+    /* Início: Imagem fixa no fundo */
+    background-image: url('/senai-curso-programador-front-end-projeto-integrador-projeto06/imagens/fundo.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* Fim: Imagem fixa no fundo */
+
+    /* Início: Centralizando div 1 */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    /* Fim: Centralizando div 1 */
+    background-color: #fff6e1;
+}
+
+/* ********* */
+/* Fim: body */
+/* ********* */
+
+/* ************ */
+/* Início: main */
+/* ************ */
+
+.div-mestre {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #fff0cd;
+    opacity: 0.9;
+    box-shadow: 0 0 100px rgba(100, 71, 0, 0.8);
+}
+
+/* Início: Cabeçalho em main */
+
+.div-cabecalho-barra {
+	margin: 0;
+    padding: 0.5rem 0 0 0;
+	background-color: #dc9d00;
+}
+
+.div-cabecalho {
+    margin: 0;
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+	justify-content: space-around;
+    align-items: center;
+	background-color: #644700;
+    font-size: 1.5rem;
+    color: #fff0cd;
+}
+    .div-cabecalho a {
+        text-decoration: none;
+        color: #fff0cd;
+    }
+        .div-cabecalho a:hover {
+            color: #dc9d00;
+        }
+
+/* Fim: Cabeçalho em main */
+
+/* Início: Corpo em main */
+
+.div-corpo {
+    margin: 0;
+    padding: 2rem;
+	background-color: #fff0cd;
+    color: #644700;
+}
+    
+.div-titulo {
+    margin: 0;
+    padding: 1rem;
+	background-color: #644700;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    text-align: center;
+    color: #fff0cd;
+}
+    .div-titulo h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+label {
+    font-weight: bold;
+}
+
+input {
+    margin: 0;
+    padding: 0.15rem;
+    border: none;
+    width: 55%;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+select {
+    margin: 0;
+    padding: 0.15rem;
+    border: none;
+    width: 57.5%;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+
+.div-imput-temperatura {
+    margin: 0;
+    padding: 2rem 0 1rem 0;
+    display: flex;
+	background-color: #ffe5a5;
+    text-align: center;
+    color: #644700;
+}
+    .div-esquerda-imput-temperatura {
+        margin: 0;
+        padding: 0 0.5rem 0 0;
+        width: 50%;
+        background-color: #ffe5a5;
+        text-align: right;
+    }
+    .div-direita-imput-temperatura {
+        margin: 0;
+        padding: 0 0 0 0.5rem;
+        width: 50%;
+        background-color: #ffe5a5;
+        text-align: left;
+    }
+
+.div-imput-escala {
+    margin: 0;
+    padding: 0 0 2rem 0;
+    display: flex;
+	background-color: #ffe5a5;
+    text-align: center;
+    color: #644700;
+}
+    .div-esquerda-imput-escala {
+        margin: 0;
+        padding: 0 0.5rem 0 0;
+        width: 50%;
+        background-color: #ffe5a5;
+        text-align: right;
+    }
+    .div-direita-imput-escala {
+        margin: 0;
+        padding: 0 0 0 0.5rem;
+        width: 50%;
+        background-color: #ffe5a5;
+        text-align: left;
+    }
+
+.div-botao {
+    margin: 0;
+    padding: 0 0 2rem 0;
+	background-color: #ffe5a5;
+    text-align: center;
+    color: #465138;
+}
+
+button {
+    background-color: #644700;
+    color: #fff0cd;
+    padding: 0.5rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; 
+  }
+    button:hover {
+        background-color: #dc9d00;
+        color: #644700;
+    }
+
+.div-resultado {
+    margin: 0;
+    padding: 0 0 2rem 0;
+    display: flex;
+	background-color: #ffe5a5;
+    align-items: center;
+    text-align: center;
+    color: #644700;
+}
+    .div-esquerda-resultado-display {
+        margin: 0;
+        padding: 0;
+        width: 10%;
+        background-color: #ffe5a5;    
+    }
+    .div-centro-resultado-display {
+        margin: 0;
+        padding: 0.15rem;
+        width: 80%;
+        background-color: #ffffff;
+        border-radius: 3px;
+        align-items: center;
+        text-align: center;
+        color: #644700;
+    }  
+    .div-direita-resultado-display {
+        margin: 0;
+        padding: 0;
+        width: 10%;
+        background-color: #ffe5a5;
+    }
+
+.div-resultado-ponto {
+    color: #ffffff;
+}
+
+.div-resultado-barra {
+	margin: 0;
+    padding: 1rem 0 0 0;
+	background-color: #644700;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+/* Fim: Corpo em main */
+
+/* Início: Rodapé em main */
+
+.div-rodape1 {
+	margin: 0;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+	background-color: #dc9d00;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #fff0cd;
+}
+
+.div-rodape1 a {
+    position: relative;
+    text-decoration: none;
+    color: #fff0cd;
+}
+    .div-rodape1 a:hover {
+        color:#fff0cd;
+    }
+        .div-rodape1 a:hover::before {
+            content: "";
+            position: absolute;
+            bottom: -5px; /* Ajuste conforme necessário para o espaçamento do sublinhado */
+            left: 0;
+            width: 100%;
+            height: 3px; /* Altura do sublinhado */
+            border-radius: 5px;
+            background: linear-gradient(to right, #fff0cd, transparent);
+        }
+
+.div-rodape2 {
+	margin: 0;
+    padding: 0.5rem 2rem 0.5rem 2rem;
+	background-color: #644700;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #fff0cd;
+}
+
+.div-rodape3 {
+	margin: 0;
+    padding: 0 2rem 0.5rem 2rem;
+	background-color: #644700;
+    font-size: 0.8rem;
+    text-align: center;
+    color: #fff0cd;
+}
+
+.div-rodape3 a {
+    position: relative;
+    text-decoration: none;
+    color: #fff0cd;
+}
+    .div-rodape3 a:hover {
+        color:#fff0cd;
+    }
+        .div-rodape3 a:hover::before {
+            content: "";
+            position: absolute;
+            bottom: -5px; /* Ajuste conforme necessário para o espaçamento do sublinhado */
+            left: 0;
+            width: 100%;
+            height: 3px; /* Altura do sublinhado */
+            border-radius: 5px;
+            background: linear-gradient(to right, #fff0cd, transparent);
+        }
+
+/* Fim: Rodapé em main */
+
+/* ********* */
+/* Fim: main */
+/* ********* */
